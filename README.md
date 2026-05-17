@@ -4,7 +4,10 @@ Rama **`yeisson-tuned-pipeline`**: experimento reproducible de segmentación tor
 
 Este documento es la guía única de esta rama. No incluye notebooks base 03–14 (sin `_tuned`); esos viven en la rama `Yeisson` solo como referencia histórica.
 
----
+- Cristian Camilo Nino Rincon
+- Sandra Milena Pantoja Cárdenas
+- Integrante pendiente 3
+- Integrante pendiente 4
 
 ## Para quién es esta guía
 
