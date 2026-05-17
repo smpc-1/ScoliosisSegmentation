@@ -1,0 +1,5 @@
+tipo,recomendacion
+Pipeline final,Usar binary -> multiclass -> last_visible_estimator -> clipping como pipeline actual recomendado.
+Uso practico,Apoyarse en el notebook final de inferencia para procesar nuevas radiografias.
+Validacion futura,Evaluar el pipeline sobre un conjunto externo o prospectivo si se quiere mayor robustez.
+Mejora futura,"Si se quiere seguir optimizando, el siguiente paso razonable seria una calibracion o ensemble del last_visible estimator."

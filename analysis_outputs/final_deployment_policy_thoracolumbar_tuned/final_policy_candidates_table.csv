@@ -1,0 +1,5 @@
+candidate_role,policy_name,mean_proxy_dice,mean_missing_count,mean_extra_count,fraction_refined
+best_proxy_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,0.9253741170804868,0.3333333333333333,1.511111111111111,0.0
+best_conservative_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,0.9253741170804868,0.3333333333333333,1.511111111111111,0.0
+baseline_reference,baseline_always,0.9196128002080586,0.4888888888888889,1.511111111111111,0.0
+raw_reference,raw_only,0.888215175623899,0.0,3.0444444444444443,0.0

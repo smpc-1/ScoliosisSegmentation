@@ -1,0 +1,6 @@
+step,item,status,detail
+1,modelo binario de columna,usar version validada,binary_spine_thoracolumbar_best.pt para localizar la ROI inicial.
+2,modelo multiclase thoracolumbar,usar version validada,thoracolumbar_partial_cascade_explained_tuned_best.pt como segmentador base.
+3,estimador last visible,usar baseline validado,last_visible_estimator_thoracolumbar_tuned_best.pt y no el refined retraining como reemplazo global.
+4,politica de clipping,seleccion final,Aplicar hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw como politica operativa del pipeline.
+5,uso de notebooks 12 y 13,evidencia experimental,"Mantenerlos como soporte de decisiones, no como sustitutos automaticos del pipeline final."

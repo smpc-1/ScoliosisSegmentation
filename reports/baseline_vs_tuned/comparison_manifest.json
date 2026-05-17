@@ -1,0 +1,80 @@
+{
+  "root": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work",
+  "artifact_roots_checked": [
+    "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs",
+    "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\outputs",
+    "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs"
+  ],
+  "stages": [
+    {
+      "stage_id": "02_binary",
+      "baseline_dir": "training_runs_binary_thoracolumbar",
+      "tuned_dir": "training_runs_binary_thoracolumbar",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\training_runs_binary_thoracolumbar",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\training_runs_binary_thoracolumbar"
+    },
+    {
+      "stage_id": "03_cascade",
+      "baseline_dir": "training_runs_cascade_thoracolumbar_explained",
+      "tuned_dir": "training_runs_cascade_thoracolumbar_explained_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\training_runs_cascade_thoracolumbar_explained",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\training_runs_cascade_thoracolumbar_explained_tuned"
+    },
+    {
+      "stage_id": "04_inference",
+      "baseline_dir": "thoracolumbar_inference_analysis_explained",
+      "tuned_dir": "thoracolumbar_inference_analysis_explained_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\thoracolumbar_inference_analysis_explained",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\thoracolumbar_inference_analysis_explained_tuned"
+    },
+    {
+      "stage_id": "05_postprocess_v2",
+      "baseline_dir": "thoracolumbar_postprocess_anatomical_v2_explained",
+      "tuned_dir": "thoracolumbar_postprocess_anatomical_v2_explained_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\thoracolumbar_postprocess_anatomical_v2_explained",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\thoracolumbar_postprocess_anatomical_v2_explained_tuned"
+    },
+    {
+      "stage_id": "06_visible_range",
+      "baseline_dir": "visible_range_estimator_thoracolumbar_explained",
+      "tuned_dir": "visible_range_estimator_thoracolumbar_explained_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\visible_range_estimator_thoracolumbar_explained",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\visible_range_estimator_thoracolumbar_explained_tuned"
+    },
+    {
+      "stage_id": "07_last_visible",
+      "baseline_dir": "last_visible_estimator_thoracolumbar_explained",
+      "tuned_dir": "last_visible_estimator_thoracolumbar_explained_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\last_visible_estimator_thoracolumbar_explained",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\last_visible_estimator_thoracolumbar_explained_tuned"
+    },
+    {
+      "stage_id": "09_project_summary",
+      "baseline_dir": "final_project_summary_thoracolumbar",
+      "tuned_dir": "final_project_summary_thoracolumbar_tuned",
+      "baseline_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\reports\\analysis_outputs\\final_project_summary_thoracolumbar",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\final_project_summary_thoracolumbar_tuned"
+    },
+    {
+      "stage_id": "11_pipeline_decision",
+      "baseline_dir": "definitive_pipeline_decision_support_thoracolumbar",
+      "tuned_dir": "definitive_pipeline_decision_support_thoracolumbar_tuned",
+      "baseline_resolved": "",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\definitive_pipeline_decision_support_thoracolumbar_tuned"
+    },
+    {
+      "stage_id": "13_hybrid_policy",
+      "baseline_dir": "hybrid_conservative_clipping_policy_thoracolumbar",
+      "tuned_dir": "hybrid_conservative_clipping_policy_thoracolumbar_tuned",
+      "baseline_resolved": "",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\hybrid_conservative_clipping_policy_thoracolumbar_tuned"
+    },
+    {
+      "stage_id": "14_deployment",
+      "baseline_dir": "final_deployment_policy_thoracolumbar",
+      "tuned_dir": "final_deployment_policy_thoracolumbar_tuned",
+      "baseline_resolved": "",
+      "tuned_resolved": "C:\\Users\\JOHN\\ScoliosisSegmentation-Yeisson-work\\analysis_outputs\\final_deployment_policy_thoracolumbar_tuned"
+    }
+  ]
+}

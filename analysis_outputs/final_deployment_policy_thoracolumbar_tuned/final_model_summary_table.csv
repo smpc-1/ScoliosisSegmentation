@@ -1,0 +1,5 @@
+component,selected_variant,status,justification
+binary_spine_localizer,binary_spine_thoracolumbar_best.pt,final,Localiza la ROI y ya estaba estable en el pipeline.
+multiclass_thoracolumbar_segmenter,thoracolumbar_partial_cascade_explained_tuned_best.pt,final,Es la mejor base multiclase usada por las etapas posteriores.
+last_visible_estimator,last_visible_estimator_thoracolumbar_tuned_best.pt,final,"El refinado mejoro metricas intermedias, pero no la metrica final del pipeline."
+clipping_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,final,La mejor politica conservadora supera al baseline con margen suficiente sin aumentar el riesgo principal de missing labels.

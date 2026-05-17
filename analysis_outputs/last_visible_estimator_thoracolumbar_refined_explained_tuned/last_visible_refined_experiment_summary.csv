@@ -1,0 +1,17 @@
+metric,value
+target_subset,partial
+test_samples,45
+last_test_exact_acc,0.15555555555555556
+last_test_within1_acc,0.6666666666666666
+last_test_mae,2.311111111111111
+last_test_overprediction_rate,0.4888888888888889
+raw_macro_dice_fg,0.33989113009940214
+oracle_macro_dice_fg,0.3711096762114791
+last_pred_clip_refined_macro_dice_fg,0.3248259005242567
+mean_raw_extra_count,3.0444444444444443
+mean_last_extra_count,1.8444444444444446
+mean_raw_missing_count,0.0
+mean_last_missing_count,0.4666666666666667
+delta_last_test_within1_acc_vs_baseline,0.0888888888888889
+delta_last_test_overprediction_rate_vs_baseline,0.08888888888888885
+delta_last_pred_clip_macro_dice_fg_vs_baseline,-0.02710795412894751

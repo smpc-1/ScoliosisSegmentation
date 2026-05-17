@@ -1,5 +1,7 @@
-# Confidential data
+# Confidential data (local only; never commit radiographs or masks)
+data/
 data/Scoliosis_Dataset/
+data/ScoliosisDataSetYeisson/
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,0 +1,6 @@
+metric,value
+pixel_accuracy,0.8191497395833529
+macro_dice_fg,0.33989113009940214
+macro_iou_fg,0.21344107280995744
+macro_dice_thoracic,0.30698429193122884
+macro_dice_lumbar,0.41886754170301793

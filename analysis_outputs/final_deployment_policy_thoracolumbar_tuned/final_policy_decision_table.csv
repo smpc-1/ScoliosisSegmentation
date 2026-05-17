@@ -1,0 +1,4 @@
+decision_type,selected_policy,reason,reference_value
+final_operational_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,La mejor politica conservadora supera al baseline con margen suficiente sin aumentar el riesgo principal de missing labels.,0.005
+best_proxy_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,"Sirve como evidencia exploratoria, pero no necesariamente como politica final.",0.9253741170804868
+best_conservative_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,Es la mejor politica bajo restricciones de seguridad y simplicidad.,0.9253741170804868

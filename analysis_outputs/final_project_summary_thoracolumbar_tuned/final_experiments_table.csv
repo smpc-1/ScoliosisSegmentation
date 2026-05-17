@@ -1,0 +1,9 @@
+stage,variant,key_result,status,comment
+Binary localization,binary_spine_thoracolumbar,test_dice=0.8440,accepted,Suficiente para funcionar como primera etapa de cascada.
+Cascade multiclass,initial,test_macro_dice_fg=0.2289,superseded,"Primera version usable, pero claramente insuficiente."
+Cascade multiclass,reinforced,test_macro_dice_fg=0.2730,superseded,Mejora intermedia.
+Cascade multiclass,partial explained,test_macro_dice_fg=0.2854,reference,Mejor baseline multiclase.
+Postprocess,anatomical v1,post_macro_dice_fg=0.0010,rejected,"Recorte demasiado agresivo, destruye recall."
+Postprocess,anatomical v2,post_v2_macro_dice_fg=0.2836,optional,"Estabiliza monotonia, pero no resuelve la sobreprediccion."
+Range estimation,visible-range estimator,pred_clip_macro_dice_fg=0.2907,improved,Primera mejora real del clipping guiado por rango visible.
+Range estimation,last-visible estimator,last_pred_clip_macro_dice_fg=0.2962,best_current,Mejor variante actual del pipeline.

@@ -1,0 +1,11 @@
+metric,value
+mean_raw_extra_count,3.0444444444444443
+mean_oracle_extra_count,0.0
+mean_last_extra_count,1.511111111111111
+mean_raw_missing_count,0.0
+mean_oracle_missing_count,0.0
+mean_last_missing_count,0.4888888888888889
+samples_with_last_extra_reduction,21.0
+samples_with_last_missing_increase,8.0
+mean_prev_extra_count,2.888888888888889
+mean_prev_missing_count,0.022222222222222223

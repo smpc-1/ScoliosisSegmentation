@@ -1,0 +1,6 @@
+metric,value
+hard_case_samples,45.0
+hard_case_exact_acc,0.15555555555555556
+hard_case_within1_acc,0.6666666666666666
+hard_case_mae,2.311111111111111
+hard_case_overprediction_rate,0.4888888888888889

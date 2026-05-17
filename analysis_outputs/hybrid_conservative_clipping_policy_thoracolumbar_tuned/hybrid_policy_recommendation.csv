@@ -1,0 +1,4 @@
+decision_type,recommended_policy,reason,reference_value
+best_proxy_policy,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,"Es la politica con mejor balance proxy entre calidad, missing y extra labels.",0.9253741170804868
+baseline_reference_policy,baseline_always,Es la politica operativa actual mas fuerte del proyecto.,0.9196128002080586
+raw_reference_policy,raw_only,Sirve como control de no-clipping.,0.888215175623899

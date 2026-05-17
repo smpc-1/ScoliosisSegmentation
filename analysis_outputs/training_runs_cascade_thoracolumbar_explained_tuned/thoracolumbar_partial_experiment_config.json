@@ -1,0 +1,33 @@
+{
+  "multiclass_subset": "partial",
+  "img_size_binary": [
+    512,
+    256
+  ],
+  "img_size_multiclass": [
+    640,
+    320
+  ],
+  "batch_size": 4,
+  "num_workers": 2,
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "multiclass_epochs": 45,
+  "patience_early_stop": 10,
+  "binary_threshold": 0.5,
+  "roi_pad_x": 28,
+  "roi_pad_y": 44,
+  "roi_jitter_x": 12,
+  "roi_jitter_y": 16,
+  "min_foreground_pixels": 24,
+  "hflip_prob": 0.5,
+  "intensity_jitter_brightness": 0.12,
+  "intensity_jitter_contrast": 0.12,
+  "unet_base": 48,
+  "unet_dropout": 0.1,
+  "device": "cuda",
+  "multiclass_lr_scale": 0.5,
+  "lr_multiclass": 0.00025,
+  "multiclass_scheduler": "CosineAnnealingLR",
+  "fase4_roi_geom_augment_train": true
+}

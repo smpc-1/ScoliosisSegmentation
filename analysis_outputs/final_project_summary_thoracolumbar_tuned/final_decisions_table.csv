@@ -1,0 +1,8 @@
+decision,por_que,impacto
+Excluir vertebras cervicales,El objetivo clinico y el consejo experto enfocaron el problema en thoracic + lumbar.,Se redujo la complejidad del problema y se concentro el aprendizaje en la region util.
+Usar estrategia en cascada,La columna completa es mas facil de localizar que separar directamente cada vertebra en la radiografia completa.,El modelo multiclase trabajo dentro de una ROI mas limpia y anatomica.
+Adoptar subset partial,Las imagenes parciales representan un caso real y aumentan el numero de muestras disponibles.,"Se mejoro el entrenamiento, pero aparecio el problema de sobreprediccion en secuencias parciales."
+No usar postproceso anatomico v1,El recorte duro destruyo casi toda la segmentacion util.,Se descarto como solucion final y quedo solo como evidencia de exploracion.
+Mantener postproceso v2 como referencia,"Mejoro monotonia anatomica, pero apenas redujo sobreprediccion.",Sirvio para confirmar que la solucion real debia estimar mejor el rango visible.
+Crear visible-range estimator,La principal falla era extender la secuencia mas alla de lo visible.,Se logro una primera mejora real sobre raw.
+Especializar el modelo en last_visible_idx,El analisis demostro que la primera vertebra visible ya estaba casi resuelta y el error real estaba en la ultima.,Se obtuvo la mejor version actual del pipeline.

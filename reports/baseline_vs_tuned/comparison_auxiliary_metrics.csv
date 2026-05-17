@@ -1,0 +1,6 @@
+block,metric,metric_key,baseline,tuned,delta
+02_binary,Dice test (binario),test_dice,0.8966665957884665,0.8966665957884665,0.0
+02_binary,IoU test (binario),test_iou,0.8126887053051197,0.8126887053051197,0.0
+03_cascade,Macro Dice FG (cascada multiclase),test_macro_dice_fg,0.32260175247560924,0.33988898320275207,0.017287230727142833
+07_last_visible,last_exact_acc,last_test_exact_acc,0.3333333333333333,0.4222222222222222,0.0888888888888889
+07_last_visible,last_within1_acc,last_test_within1_acc,0.5555555555555556,0.5777777777777777,0.022222222222222143

@@ -1,0 +1,6 @@
+variant,macro_dice_fg,source,status
+oracle_clip,0.3711096762114791,07/last_visible_experiment_summary,upper_bound
+last_visible_pred_clip,0.3519338546532042,07/last_visible_experiment_summary,best_proven
+visible_range_pred_clip,0.34224522453014317,06/visible_range_experiment_summary,improved
+raw_multiclass,0.33989113009940214,07/last_visible_experiment_summary,reference
+postprocess_v2,0.3391260749441562,05/postprocess_v2_experiment_summary,optional

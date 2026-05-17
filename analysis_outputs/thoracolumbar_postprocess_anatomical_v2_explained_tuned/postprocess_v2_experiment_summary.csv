@@ -1,0 +1,15 @@
+metric,value
+target_subset,partial
+test_samples,45
+raw_macro_dice_fg,0.33989113009940214
+post_v2_macro_dice_fg,0.3391260749441562
+raw_macro_dice_thoracic,0.30698429193122884
+post_v2_macro_dice_thoracic,0.3026608741585706
+raw_macro_dice_lumbar,0.41886754170301793
+post_v2_macro_dice_lumbar,0.4266425568295613
+mean_raw_extra_count,3.0444444444444443
+mean_post_extra_count,2.1333333333333333
+samples_with_extra_reduction,14
+samples_with_missing_increase,23
+raw_monotonic_ratio,0.4444444444444444
+post_v2_monotonic_ratio,1.0

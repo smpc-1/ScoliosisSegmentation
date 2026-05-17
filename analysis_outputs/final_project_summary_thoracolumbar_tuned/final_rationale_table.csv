@@ -1,0 +1,6 @@
+argumento,detalle
+Mejor equilibrio entre mejora y estabilidad,"Supera a raw, visible-range clip y postprocess v2 sin colapsar la segmentacion."
+Ataca el cuello de botella correcto,"El proyecto mostro que el problema principal estaba en la ultima vertebra visible, no en la primera."
+Mejora concreta en region lumbar,La mayor sobreprediccion estaba hacia la zona lumbar y alli se observa el mayor beneficio.
+Reduccion fuerte de etiquetas extra,"Baja mean_extra_count de 3.09 a 1.60, mejor que la etapa de range estimator anterior."
+Sigue siendo explicable,La arquitectura final tiene una cadena de decisiones anatomicas faciles de defender en el documento final.

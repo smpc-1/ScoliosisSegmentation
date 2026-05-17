@@ -1,0 +1,8 @@
+metric,value
+target_subset,partial
+test_samples,45
+test_macro_dice_fg,0.33989113009940214
+test_macro_iou_fg,0.21344107280995744
+test_macro_dice_thoracic,0.30698429193122884
+test_macro_dice_lumbar,0.41886754170301793
+samples_with_non_monotonic_centroid_order,26

@@ -1,0 +1,5 @@
+etapa,entrada,salida,razon
+1. Binary spine localization,Radiografia completa,ROI espinal,Reducir fondo y enfocar la siguiente etapa en la columna.
+2. Multiclase thoracolumbar segmentation,ROI espinal,Mascara vertebral T1..T12 + L1..L5,Identificar vertebras dentro de una zona ya localizada.
+3. Last visible estimator,ROI + features anatomicas derivadas de la prediccion multiclase,Ultima vertebra visible estimada,Corregir el principal fallo del pipeline: sobreextender la secuencia.
+4. Anatomical clipping,Mascara multiclase + ultima vertebra visible,Mascara final corregida,Reducir etiquetas extra y mejorar coherencia anatomica final.

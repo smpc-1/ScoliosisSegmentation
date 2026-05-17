@@ -1,0 +1,6 @@
+dimension,decision,argument
+objetivo_principal,priorizar identificacion estable de vertebras visibles,La metrica final del proyecto depende de no eliminar vertebras correctas durante el clipping.
+resultado_de_12,no adoptar refined retraining como reemplazo global,"Aunque mejoro el estimador last_visible, empeoro la salida final de segmentacion en la comparacion validada."
+resultado_de_13,usar politica hibrida solo como evidencia exploratoria,"Los beneficios del refined aparecen en algunos subgrupos, pero no con estabilidad suficiente para reemplazar el baseline en despliegue general."
+politica_final,hybrid_scoliosis_baseline_else_refined_if_trim_ge_2_and_gap_le_1_else_raw,La mejor politica conservadora supera al baseline con margen suficiente sin aumentar el riesgo principal de missing labels.
+criterio_de_despliegue,preferir simpleza e interpretabilidad,Una regla simple y validada es mas defendible que una politica mas compleja sin ganancia final consistente.

@@ -1,0 +1,5 @@
+priority,focus,recommendation,reason
+1,last_visible estimator v2,Usar WeightedRandomSampler con `last_visible_training_weight` y penalizar mas la sobreprediccion que la subprediccion.,El error dominante sigue siendo extender la anatomia mas alla de lo visible.
+2,multiclass thoracolumbar,Reentrenar con `multiclass_training_weight` para aumentar exposicion a vertebras raras y casos parciales.,El bloque toracico y ciertos finales cortos siguen subrepresentados.
+3,hard case curriculum,Reservar un subconjunto de casos duros para validacion cualitativa obligatoria despues de cada corrida.,Las metricas globales no muestran por si solas el problema de sobreprediccion anatomica.
+4,annotation review,Revisar primero las imagenes con `needs_annotation_review` y luego reincorporarlas si quedan consistentes.,La calidad de anotacion limita el techo del pipeline completo.

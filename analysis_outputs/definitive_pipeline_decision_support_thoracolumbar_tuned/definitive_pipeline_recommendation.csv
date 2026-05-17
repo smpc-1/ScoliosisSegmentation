@@ -1,0 +1,4 @@
+decision_type,recommended_variant,reason,metric_reference
+best_proven_pipeline,last_visible_pred_clip,Es la mejor variante ya validada con macro_dice_fg sobre mascara.,0.3519338546532042
+best_proxy_policy,last_clip_always,Es la mejor politica exploratoria segun proxy de set de etiquetas y trade-off missing/extra.,0.9196128002080586
+strategic_next_step,retrain_last_visible_with_refined_sampling,El mayor margen de mejora sigue estando entre last_visible_pred_clip y oracle_clip.,0.019175821558274908
